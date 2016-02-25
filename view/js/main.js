@@ -23,10 +23,10 @@ var ai = {
     return message;
   },
   send: function() {
-    ai.printToScreen(ai.inputBox.value);
+    ai.printToScreen("Me: " + ai.inputBox.value);
   },
   respond: function(message) {
-    ai.printToScreen("Hi!");
+    ai.printToScreen("AI: Hi!");
   }
 };
 
