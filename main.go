@@ -27,6 +27,8 @@ func (this *MyHandler) ServeHTTP(rw http.ResponseWriter, req *http.Request){
       contentType = "application/javascript"
     } else if strings.HasSuffix(path, ".png") {
       contentType = "image/png"
+    } else if strings.HasSuffix(path, ".jpg") {
+      contentType = "image/jpg"
     } else {
       contentType = "text/plain"
     }

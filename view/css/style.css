@@ -1,1 +1,19 @@
+body {
+  background-image: url(../img/scifi-cyber-girl.jpg);
+  color: white;
+}
 
+#ai {
+  width: 500px;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.8);
+  overflow-y: scroll;
+  color: lime;
+  border-radius: 10px;
+}
+
+#input {
+  position: absolute;
+  bottom: 50px;
+  width: 500px;
+}
